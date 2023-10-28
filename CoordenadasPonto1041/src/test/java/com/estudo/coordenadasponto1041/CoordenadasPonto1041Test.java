@@ -4,20 +4,15 @@
  */
 package com.estudo.coordenadasponto1041;
 
-import java.util.Arrays;
-import java.util.stream.DoubleStream;
 import java.util.stream.Stream;
-import static java.util.stream.StreamSupport.doubleStream;
 import static org.assertj.core.api.Assertions.assertThat;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import static org.hamcrest.MatcherAssert.assertThat; 
+import static org.hamcrest.Matchers.*;
 
 /**
  *
@@ -60,8 +55,10 @@ public class CoordenadasPonto1041Test {
     @ParameterizedTest
     @MethodSource("coordenadas")
     public void testIdentificador(double[] coord) {
-      
-        assertThat(CoordenadasPonto1041.identificador(coord)).isIn("Q4","Q1","Origem");;
+      /** utilizando assertj**/
+        //assertThat(CoordenadasPonto1041.identificador(coord)).isIn("Q4","Q1","Origem");
+      /** utilizando hamcrest**/
+        assertThat(CoordenadasPonto1041.identificador(coord),anyOf(equalTo("Q4"),equalTo("Q1"),equalTo("Origem")));
     }
     
 }
