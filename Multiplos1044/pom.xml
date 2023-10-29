@@ -6,11 +6,11 @@
         <artifactId>beecrowd2</artifactId>
         <version>0</version>
     </parent>
-    <artifactId>SortSimples1042</artifactId>
+    <artifactId>Multiplos1044</artifactId>
     <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.estudo.sortsimples1042.SortSimples1042</exec.mainClass>
+        <exec.mainClass>com.estudo.multiplos1044.Multiplos1044</exec.mainClass>
     </properties>
 </project>
