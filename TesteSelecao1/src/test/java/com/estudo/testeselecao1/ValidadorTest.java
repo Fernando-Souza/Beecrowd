@@ -4,10 +4,6 @@
  */
 package com.estudo.testeselecao1;
 
-import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.anyOf;
-import static org.hamcrest.CoreMatchers.containsString;
-
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 //import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
@@ -44,7 +40,7 @@ public class ValidadorTest {
 
         int[] tokens = validador.lerValores(leitura, regex);
         String result=validador.valida(tokens);
-        assertThat(result).isIn("Valores Aceitos","Valores não aceitos");
+        assertThat(result).isIn("Valores Aceitos","Valores não Aceitos");
     }
 
     

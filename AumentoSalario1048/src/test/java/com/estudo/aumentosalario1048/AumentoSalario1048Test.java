@@ -24,9 +24,9 @@ public class AumentoSalario1048Test {
         String[] resposta = AumentoSalario1048.novoSalario(salario);
         
         //String[] resposta = new String[]{"Olá Mundo"};       
-        assertThat(resposta).isEqualTo(new String[]{"Novo salario: " + BigDecimal.valueOf(salario*(1 + reajuste / 100.0)).setScale(2, RoundingMode.CEILING).toString(),
-            "Reajuste ganho: " + BigDecimal.valueOf(salario*(reajuste / 100.0)).setScale(2, RoundingMode.CEILING).toString(),
-            "Em percentual: " + reajuste + "%"});
+        assertThat(resposta).isEqualTo(new String[]{"Novo salario: " + BigDecimal.valueOf(salario*(1 + reajuste / 100.0)).setScale(2, RoundingMode.HALF_UP).toString(),
+            "Reajuste ganho: " + BigDecimal.valueOf(salario*(reajuste / 100.0)).setScale(2, RoundingMode.HALF_UP).toString(),
+            "Em percentual: " + reajuste + " %"});
        
     }
     

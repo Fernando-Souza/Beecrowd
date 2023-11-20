@@ -54,7 +54,7 @@ public class AumentoSalario1048 {
         }
 
         return new String[]{"Novo salario: " + BigDecimal.valueOf(salario*(1 + reajuste / 100.00)).setScale(2,RoundingMode.HALF_UP).toString(),
-            "Reajuste ganho: " + BigDecimal.valueOf(salario*(reajuste / 100.0)).setScale(2, RoundingMode.FLOOR).toString(),
+            "Reajuste ganho: " + BigDecimal.valueOf(salario*(reajuste / 100.0)).setScale(2, RoundingMode.HALF_UP).toString(),
             "Em percentual: " + reajuste + " %"};
     }
 

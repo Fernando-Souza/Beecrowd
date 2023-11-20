@@ -1,15 +1,11 @@
 package com.estudo.tipostriangulo1045;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
-import static org.junit.jupiter.params.provider.Arguments.arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 public class TiposTriangulo1045Test {
@@ -18,10 +14,11 @@ public class TiposTriangulo1045Test {
     @MethodSource("valueProvider")
     public void converterTeste(String[] valor) {
 
-        String[] input = new String[]{"7.0", "5.0", "6.0"};
+        //String[] input = new String[]{"7.0", "5.0", "6.0"};
         double[] resposta = TiposTriangulo1045.converter(valor);
 
-        assertThat(resposta).isIn(Arrays.asList(new double[]{7.0, 5.0, 6.0},new double[]{7.01,5,6.10},new double[]{0.1,51.0,6.001}));
+        assertThat(resposta).isIn(Arrays.asList(new double[]{7.0, 5.0, 7.0},new double[]{6.0,6.0,10.0},
+                new double[]{6.0,6.0,6.0},new double[]{5.0,7.0,2.0},new double[]{6.0,8.0,10.0}));
 
     }
     

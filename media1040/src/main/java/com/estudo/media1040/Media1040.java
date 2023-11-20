@@ -90,7 +90,7 @@ public class Media1040 {
         } else{
 
             if (nota >= 5) {
-                resultado = "Aluno em aprovado.";
+                resultado = "Aluno aprovado.";
             } else if (nota < 5) {
                 resultado = "Aluno reprovado.";
             }

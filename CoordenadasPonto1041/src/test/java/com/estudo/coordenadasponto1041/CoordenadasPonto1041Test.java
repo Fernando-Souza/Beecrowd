@@ -19,17 +19,7 @@ import static org.hamcrest.Matchers.*;
  * @author fernando
  */
 public class CoordenadasPonto1041Test {
-    
-    
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        CoordenadasPonto1041.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
+   
     
     @Test
     public void testConverter() {

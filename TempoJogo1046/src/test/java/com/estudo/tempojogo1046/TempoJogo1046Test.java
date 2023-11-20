@@ -14,8 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class TempoJogo1046Test {
     
-    public TempoJogo1046Test() {
-    }
+   
     
     @Test
     public void deveCalcularDuracaoJogo(){
@@ -26,14 +25,6 @@ public class TempoJogo1046Test {
         
         assertThat(resposta).as("Tempo de jogo.").isEqualTo("O JOGO DUROU 24 HORA(S)");
         
-    }
-
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        TempoJogo1046.main(args);
-        fail("The test case is a prototype.");
-    }
+    }   
     
 }
