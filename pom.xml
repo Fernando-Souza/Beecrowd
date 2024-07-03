@@ -26,6 +26,8 @@
         <module>Mes1052</module>
         <module>NumerosPares1059</module>
         <module>numerosPositivos1060</module>
+        <module>PositivoseMedia1064</module>
+        <module>TempoDeUmEvento1061</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
