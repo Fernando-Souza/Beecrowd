@@ -28,6 +28,13 @@
         <module>numerosPositivos1060</module>
         <module>PositivoseMedia1064</module>
         <module>TempoDeUmEvento1061</module>
+        <module>ParesCincoNumeros1065</module>
+        <module>ParesImparesPositivosNegativos1066</module>
+        <module>NumerosImpares1067</module>
+        <module>SeisNumerosImpares1070</module>
+        <module>SomaImparesConsecutivos1071</module>
+        <module>Intervalo1072</module>
+        <module>QuadradoPares1073</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
