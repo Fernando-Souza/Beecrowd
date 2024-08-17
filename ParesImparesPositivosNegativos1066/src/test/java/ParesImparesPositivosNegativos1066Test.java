@@ -23,7 +23,7 @@ public class ParesImparesPositivosNegativos1066Test {
         
         String resultado = ParesImparesPositivosNegativos1066.separaNumeros(numeros);       
         assertThat(resultado).isEqualTo("3 valor(es) par(es)\n2 valor(es) impar(es)\n"
-                + "1 valor(es) positivo(s)\n3 valor(es) negativo(s)\n");      
+                + "1 valor(es) positivo(s)\n3 valor(es) negativo(s)");      
         
     }
     

@@ -35,6 +35,11 @@
         <module>SomaImparesConsecutivos1071</module>
         <module>Intervalo1072</module>
         <module>QuadradoPares1073</module>
+        <module>Resto2_1075</module>
+        <module>Tabuada1078</module>
+        <module>MediasPonderadas1079</module>
+        <module>MediasPonderadas1079-2</module>
+        <module>MediasPonderadas1079_2</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
