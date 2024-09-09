@@ -40,6 +40,9 @@
         <module>MediasPonderadas1079</module>
         <module>MediasPonderadas1079-2</module>
         <module>MediasPonderadas1079_2</module>
+        <module>MaiorePosicao1080</module>
+        <module>Experiencias1094</module>
+        <module>SequenciaIJ1095</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
