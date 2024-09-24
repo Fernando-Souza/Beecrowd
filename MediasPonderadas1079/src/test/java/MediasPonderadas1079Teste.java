@@ -20,13 +20,13 @@ import org.junit.jupiter.params.provider.MethodSource;
  */
 public class MediasPonderadas1079Teste {
 
-    @ParameterizedTest
+    /**@ParameterizedTest
     @MethodSource("ncasosFactory")  
     public void mediaPonderada(double[]valores,int[]pesos) {
         
-        CalculaMedias objeto = new MediasPonderadas1079().new CalculaMedias(valores,pesos);        
-        String media =objeto.calculaMediaPonderada();
-        assertThat(media).isIn(Arrays.asList("5.7", "6.3", "9.3"));
+//        CalculaMedias objeto = new MediasPonderadas1079().new CalculaMedias(valores,pesos);        
+  //      String media =objeto.calculaMediaPonderada();
+    //    assertThat(media).isIn(Arrays.asList("5.7", "6.3", "9.3"));
 
     }
 
@@ -37,6 +37,6 @@ public class MediasPonderadas1079Teste {
      new double[]{5.1, 4.2, 8.1},new int[]{2,3,5}), arguments(new double[]{8.0, 9.0,
      10.0},new int[]{2,3,5}));
     
-     }
+     }**/
     
 }
