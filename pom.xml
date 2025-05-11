@@ -42,9 +42,15 @@
         <module>MaiorePosicao1080</module>
         <module>Experiencias1094</module>
         <module>SequenciaIJ1095</module>
+        <module>SomaImparesConsecutivos1099</module>
+        <module>SequenciaNumeroSoma1101</module>
+        <module>CrescenteDecrescente1113</module>
+        <module>SenhaFixa1114</module>
+        <module>Quadrante1115</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
     </properties>
     <dependencies>
         <dependency>
@@ -68,6 +74,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>3.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
