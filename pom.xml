@@ -47,6 +47,18 @@
         <module>CrescenteDecrescente1113</module>
         <module>SenhaFixa1114</module>
         <module>Quadrante1115</module>
+        <module>DividindoXY1116</module>
+        <module>ValidacaoNota1117</module>
+        <module>VariasNotaValidacao1118</module>
+        <module>Grenais1131</module>
+        <module>Multiplos131132</module>
+        <module>RestoDivisao1113</module>
+        <module>TipoCombustivel</module>
+        <module>Pum1142</module>
+        <module>QuadradoCubo1143</module>
+        <module>SequenciaLogica1144</module>
+        <module>SequenciaLogica21145</module>
+        <module>SequenciaCrescente1146</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
