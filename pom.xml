@@ -59,6 +59,16 @@
         <module>SequenciaLogica1144</module>
         <module>SequenciaLogica21145</module>
         <module>SequenciaCrescente1146</module>
+        <module>InteiroConsecutivos1149</module>
+        <module>UltrapassandoZ1150</module>
+        <module>FibonacciFacil1151</module>
+        <module>FatorialSimples1153</module>
+        <module>Idades_1154</module>
+        <module>SequenciaS_1155</module>
+        <module>SequenciaSII_1156</module>
+        <module>Divisores_1157</module>
+        <module>SomaImparesConsecutivos_1158</module>
+        <module>CrescimentoPopulacional_1160</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
