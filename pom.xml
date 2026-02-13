@@ -69,6 +69,13 @@
         <module>Divisores_1157</module>
         <module>SomaImparesConsecutivos_1158</module>
         <module>CrescimentoPopulacional_1160</module>
+        <module>NumeroPerfeito1164</module>
+        <module>NumeroPrimo1165</module>
+        <module>SubstituicaoVetor1_1172</module>
+        <module>PreencimentoVetorI_1173</module>
+        <module>IdentificandoCha_2006</module>
+        <module>SelecaoVetor1_1174</module>
+        <module>TrocaVetorI_1175</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
