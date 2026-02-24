@@ -76,6 +76,20 @@
         <module>IdentificandoCha_2006</module>
         <module>SelecaoVetor1_1174</module>
         <module>TrocaVetorI_1175</module>
+        <module>FibonacciVetor_1176</module>
+        <module>PreencherVetorII_1177</module>
+        <module>PreencherVetorIII_1178</module>
+        <module>PreencherVetorIV_1179</module>
+        <module>MenorePosicao_1180</module>
+        <module>acimaDiagonal_1183</module>
+        <module>AbaixoDiagonal_1184</module>
+        <module>AcimaDiagonaSec_1185</module>
+        <module>AbaixoDiagonalSec_1186</module>
+        <module>AreaSuperior</module>
+        <module>AreaInferior_1188</module>
+        <module>AreaEsquerda_1189</module>
+        <module>AreaDireita_1190</module>
+        <module>MatrizQuadradaI_1435</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
