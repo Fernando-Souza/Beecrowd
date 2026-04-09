@@ -90,6 +90,12 @@
         <module>AreaEsquerda_1189</module>
         <module>AreaDireita_1190</module>
         <module>MatrizQuadradaI_1435</module>
+        <module>MatrizQuadradaII_1478</module>
+        <module>matriz123_1534</module>
+        <module>ConstruindoCasas</module>
+        <module>MatrizQuadradaIII</module>
+        <module>VaiTerCopa1564</module>
+        <module>BobConduite1589</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

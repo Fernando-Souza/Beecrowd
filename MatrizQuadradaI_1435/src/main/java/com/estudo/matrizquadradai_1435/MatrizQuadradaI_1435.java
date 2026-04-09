@@ -32,9 +32,12 @@ Imagine a posição da linha 2, coluna 3 em uma matriz
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
+        StringBuilder saida = new StringBuilder();
 
         int x;
-        while (N > 0) {
+        while (true) {
+            
+            if (N == 0) break;
 
             for (int i = 1; i <= N; i++) {
                 for (int j = 1; j <= N; j++) {
@@ -49,18 +52,18 @@ Imagine a posição da linha 2, coluna 3 em uma matriz
                         x = N - j + 1;
                     }
 
-                    System.out.printf("%3d", x);
+                    saida.append(String.format("%3d", x));
                     if (j < N) {
-                        System.out.print(" ");
+                        saida.append(" ");
                     } else {
-                        System.out.print("\n");
+                       saida.append("\n");
                     }
                 }
             }
-            System.out.print("\n");
+            saida.append("\n");
             N = input.nextInt();
 
         }
-        input.close();
+        System.out.print(saida);
     }
 }
