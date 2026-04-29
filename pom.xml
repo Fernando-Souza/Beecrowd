@@ -96,6 +96,12 @@
         <module>MatrizQuadradaIII</module>
         <module>VaiTerCopa1564</module>
         <module>BobConduite1589</module>
+        <module>HoHoHo1759</module>
+        <module>CorridaLesmas1789</module>
+        <module>MatrizQuadradaIV_1827</module>
+        <module>Bazinga1828</module>
+        <module>Prefacio1837</module>
+        <module>BemVindo1847</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
