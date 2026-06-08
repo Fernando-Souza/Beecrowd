@@ -102,6 +102,13 @@
         <module>Bazinga1828</module>
         <module>Prefacio1837</module>
         <module>BemVindo1847</module>
+        <module>CorvoContador1848</module>
+        <module>RespostaTheon1858</module>
+        <module>Conta1866</module>
+        <module>DeQuemVez1914</module>
+        <module>VitoriaIncisao1924</module>
+        <module>Triangulo1929</module>
+        <module>Tomadas1930</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
